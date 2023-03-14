@@ -316,6 +316,10 @@ h4 {
   border-radius: 50%;
 }
 
+.feedback__photo img {
+  max-width: 100%;
+}
+
 .feedback__info {
   min-height: 2.875rem;
 }
@@ -834,7 +838,11 @@ h4 {
 .color-top__picture {
   height: 14.5rem;
   aspect-ratio: 3.3060344828;
-  z-index: -1;
+}
+
+.color-top__picture img {
+  height: 14.5rem;
+  aspect-ratio: 3.3060344828;
 }
 
 /* </color-top> ========== */
@@ -876,6 +884,10 @@ h4 {
 
 .color-fitches__picture {
   width: 100%;
+  max-width: 100%;
+}
+
+.color-fitches__picture img {
   max-width: 100%;
 }
 
@@ -964,6 +976,10 @@ h4 {
   height: 100%;
 }
 
+.color-details__picture img {
+  max-width: 100%;
+}
+
 .color-details__description {
   padding: 0 1.5rem 1.5rem;
 }
@@ -984,6 +1000,10 @@ h4 {
   height: 100%;
   width: 100%;
   max-width: 37.5rem;
+}
+
+.color-details__image img {
+  max-width: 100%;
 }
 
 /* </color-details> ========== */

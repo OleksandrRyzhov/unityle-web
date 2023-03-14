@@ -7,19 +7,20 @@
 		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
   	<link rel="preconnect" href="https://fonts.googleapis.com">
   	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap&_v=20230314191402" rel="stylesheet">
+  	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap&_v=20230314230400" rel="stylesheet">
     <!-- <link rel="preconnect" href="//cdn.jsdelivr.net">
-      <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css?_v=20230314191402"> -->
-    <link rel="stylesheet" href="css/style.min.css?_v=20230314191402">
+      <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css?_v=20230314230400"> -->
+    <link rel="stylesheet" href="css/style.min.css?_v=20230314230400">
     <title>Color system</title>
   </head>
 
   <body>
     <div class="wrapper">
       <div class="wrapper__container">
-        <div class="wrapper__bg ibg">
-          <picture><source srcset="img/color-system/bg.webp" type="image/webp"><img src="img/color-system/bg.png" alt="Background image with colors palette" /></picture>
-        </div>
+        <picture class="wrapper__bg ibg">
+					<source srcset="img/color-system/bg.webp" type="image/webp">
+					<img src="img/color-system/bg.png" alt="Background image with colors palette">
+        </picture>
       </div>
       <header class="header">
         <div class="header__container">
@@ -83,9 +84,10 @@
 						</div>
 						<p class="color-top__text">14 day money-back guarantee</p>
 					</div>
-					<div class="color-top__picture ibg">
-						<picture><source srcset="img/color-system/top/mobile-bg.webp" type="image/webp"><img src="img/color-system/top/mobile-bg.png" alt="Tablet & mobile background image with colors palette"></picture>
-					</div>
+					<picture class="color-top__picture">
+						<source srcset="img/color-system/top/mobile-bg.webp" type="image/webp">
+						<img src="img/color-system/top/mobile-bg.png" alt="Image with colors palette">
+					</picture>
 				</section>
 				<section class="page__fitches color-fitches">
 					<div class="color-fitches__container">
@@ -97,9 +99,10 @@
 						</div>
 						<div class="color-fitches__items">
 							<div class="color-fitches__item">
-								<div class="color-fitches__picture color-fitches__picture--large ibg">
-									<picture><source srcset="img/color-system/fitches/1large.webp" type="image/webp"><img src="img/color-system/fitches/1large.png" alt="Large set of colors"></picture>
-								</div>
+								<picture class="color-fitches__picture color-fitches__picture--large">
+									<source data-srcset="img/color-system/fitches/1large.webp" srcset="img/1x1.webp" type="image/webp">
+									<img data-src="img/color-system/fitches/1large.png" src="img/1x1.png" alt="Large set of colors">
+								</picture>
 								<div class="color-fitches__description">
 									<h3 class="color-fitches__item-title">Large set of colors</h3>
 									<p class="color-fitches__text text">
@@ -109,9 +112,10 @@
 							</div>
 							<div class="color-fitches__column">
 								<div class="color-fitches__item">
-									<div class="color-fitches__picture ibg">
-										<picture><source srcset="img/color-system/fitches/2dark-and-neutral.webp" type="image/webp"><img src="img/color-system/fitches/2dark-and-neutral.png" alt="Sets of dark & neutral colors"></picture>
-									</div>
+									<picture class="color-fitches__picture">
+										<source data-srcset="img/color-system/fitches/2dark-and-neutral.webp" srcset="img/1x1.webp" type="image/webp">
+										<img data-src="img/color-system/fitches/2dark-and-neutral.png" src="img/1x1.png" alt="Sets of dark & neutral colors">
+									</picture>
 									<div class="color-fitches__description">
 										<h3 class="color-fitches__item-title">Sets of dark & neutral colors</h3>
 										<p class="color-fitches__text text">
@@ -124,9 +128,10 @@
 										“Reshaped gives a superpower to not think about the implementation details when building a product. I absolutely love how it helps to solve Light/Dark theming and RTL.“
 									</p>
 									<div class="feedback__person">
-										<div class="feedback__photo ibg">
-											<picture><source srcset="img/color-system/fitches/photo.webp" type="image/webp"><img src="img/color-system/fitches/photo.png" alt="Ivan Zabudko"></picture>
-										</div>
+										<picture class="feedback__photo">
+											<source data-srcset="img/color-system/feedback/photo.webp" srcset="img/1x1.webp" type="image/webp">
+											<img data-src="img/color-system/feedback/photo.png" src="img/1x1.png" alt="Ivan Zabudko">
+										</picture>
 										<div class="feedback__info">
 											<p class="feedback__name text">Ivan Zabudko</p>
 											<p class="feedback__email">concept.orange.web@gmail.com</p>
@@ -150,9 +155,10 @@
 						</div>
 						<div class="color-details__items">
 							<div class="color-details__item color-details__item--large">
-								<div class="color-details__picture ibg">
-									<picture><source srcset="img/color-system/details/1already-set-up.webp" type="image/webp"><img src="img/color-system/details/1already-set-up.png" alt="Your Figma is already set up"></picture>
-								</div>
+								<picture class="color-details__picture">
+									<source data-srcset="img/color-system/details/1already-set-up.webp" srcset="img/1x1.webp" type="image/webp">
+									<img data-src="img/color-system/details/1already-set-up.png" src="img/1x1.png" alt="Your Figma is already set up">
+								</picture>
 								<div class="color-details__description">
 									<h3 class="color-details__item-title">Your Figma is already set up</h3>
 									<p class="color-details__text text">
@@ -161,9 +167,10 @@
 								</div>
 							</div>
 							<div class="color-details__item">
-								<div class="color-details__picture ibg">
-									<picture><source srcset="img/color-system/details/2contrast.webp" type="image/webp"><img src="img/color-system/details/2contrast.png" alt="Contrast indicator"></picture>
-								</div>
+								<picture class="color-details__picture">
+									<source data-srcset="img/color-system/details/2contrast.webp" srcset="img/1x1.webp" type="image/webp">
+									<img data-src="img/color-system/details/2contrast.png" src="img/1x1.png" alt="Contrast indicator">
+								</picture>
 								<div class="color-details__description">
 									<h3 class="color-details__item-title">Contrast indicator</h3>
 									<p class="color-details__text text">
@@ -172,9 +179,10 @@
 								</div>
 							</div>
 							<div class="color-details__item">
-								<div class="color-details__picture ibg">
-									<picture><source srcset="img/color-system/details/3guidelines.webp" type="image/webp"><img src="img/color-system/details/3guidelines.png" alt="Guidelines"></picture>
-								</div>
+								<picture class="color-details__picture">
+									<source data-srcset="img/color-system/details/3guidelines.webp" srcset="img/1x1.webp" type="image/webp">
+									<img data-src="img/color-system/details/3guidelines.png" src="img/1x1.png" alt="Guidelines">
+								</picture>
 								<div class="color-details__description">
 									<h3 class="color-details__item-title">Guidelines</h3>
 									<p class="color-details__text text">
@@ -183,9 +191,10 @@
 								</div>
 							</div>
 							<div class="color-details__item">
-								<div class="color-details__picture ibg">
-									<picture><source srcset="img/color-system/details/4organized-layers.webp" type="image/webp"><img src="img/color-system/details/4organized-layers.png" alt="Organized layers"></picture>
-								</div>
+								<picture class="color-details__picture">
+									<source data-srcset="img/color-system/details/4organized-layers.webp" srcset="img/1x1.webp" type="image/webp">
+									<img data-src="img/color-system/details/4organized-layers.png" src="img/1x1.png" alt="Organized layers">
+								</picture>
 								<div class="color-details__description">
 									<h3 class="color-details__item-title">Organized layers</h3>
 									<p class="color-details__text text">
@@ -198,18 +207,20 @@
 									“Reshaped gives a superpower to not think about the implementation details when building a product. I absolutely love how it helps to solve Light/Dark theming and RTL.“
 								</p>
 								<div class="feedback__person">
-									<div class="feedback__photo ibg">
-										<picture><source srcset="img/color-system/fitches/photo.webp" type="image/webp"><img src="img/color-system/fitches/photo.png" alt="Ivan Zabudko"></picture>
-									</div>
+									<picture class="feedback__photo">
+										<source data-srcset="img/color-system/feedback/photo.webp" srcset="img/1x1.webp" type="image/webp">
+										<img data-src="img/color-system/feedback/photo.png" src="img/1x1.png" alt="Ivan Zabudko">
+									</picture>
 									<div class="feedback__info">
 										<p class="feedback__name text">Ivan Zabudko</p>
 										<p class="feedback__email">concept.orange.web@gmail.com</p>
 									</div>
 								</div>
 							</div>
-							<div class="color-details__image ibg">
-								<picture><source srcset="img/color-system/details/5grayscale.webp" type="image/webp"><img src="img/color-system/details/5grayscale.png" alt="Grayscale"></picture>
-							</div>
+							<picture class="color-details__image">
+								<source data-srcset="img/color-system/details/5grayscale.webp" srcset="img/1x1.webp" type="image/webp">
+								<img data-src="img/color-system/details/5grayscale.png" src="img/1x1.png" alt="Grayscale">
+							</picture>
 						</div>
 					</div>
 				</section>
@@ -465,9 +476,9 @@
     </div>
     
     
-    <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js?_v=20230314191402"></script>
-<script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js?_v=20230314191402"></script> -->
-<script src="js/app.min.js?_v=20230314191402"></script>
+    <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js?_v=20230314230400"></script>
+<script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js?_v=20230314230400"></script> -->
+<script src="js/app.min.js?_v=20230314230400"></script>
 
   </body>
 </html>
