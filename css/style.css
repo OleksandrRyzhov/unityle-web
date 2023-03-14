@@ -179,6 +179,7 @@ h6 {
 }
 
 .page {
+  margin-top: 3.25rem;
   flex: 1 0 auto;
 }
 
@@ -206,7 +207,6 @@ html {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  position: relative;
 }
 
 .ibg img,
@@ -382,6 +382,16 @@ h4 {
 
 .header {
   border-bottom: 0.0625rem solid var(--secondaryHover);
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  background-color: var(--neutralWhite);
+  transition: transform 0.3s linear, background-color 0.3s ease-in;
+}
+
+.header.hide {
+  transform: translateY(-100%);
 }
 
 .header__container {
@@ -412,7 +422,7 @@ h4 {
 
 .menu__top {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: center;
   position: absolute;
   padding: 0 1.25rem;
@@ -486,7 +496,6 @@ h4 {
   position: absolute;
   right: -15rem;
   width: 15rem;
-  background-color: var(--neutralWhite);
   height: 100%;
   padding: 1.25rem 0 2rem;
   transition: right 0.5s, visibility 0.5s;
@@ -1002,7 +1011,7 @@ h4 {
 
 .color-features__item {
   display: flex;
-  align-items: start;
+  align-items: flex-start;
   gap: 1.25rem;
 }
 
@@ -1074,6 +1083,10 @@ h4 {
 }
 
 @media (min-width: 54.375em) {
+  .page {
+    margin-top: 4rem;
+  }
+
   h1 {
     line-height: 1.203125;
   }
@@ -1108,6 +1121,14 @@ h4 {
 
   .feedback__info {
     min-height: 3.25rem;
+  }
+
+  .header {
+    background-color: transparent;
+  }
+
+  .header:hover {
+    background-color: var(--neutralWhite);
   }
 
   .header__container {
@@ -1464,6 +1485,10 @@ h4 {
   .header .btn {
     margin-top: 2.5rem;
     width: 12.5rem;
+  }
+
+  .menu__body {
+    background-color: var(--neutralWhite);
   }
 
   .menu-open .menu__body {
