@@ -409,6 +409,7 @@ h4 {
 
 .header__logo img {
   width: 5.9375rem;
+  aspect-ratio: 3.7586206897;
 }
 
 .menu {
