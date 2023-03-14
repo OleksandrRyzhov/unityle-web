@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  	<link rel="preconnect" href="https://fonts.googleapis.com">
+  	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap&_v=20230314170126" rel="stylesheet">
+    <!-- <link rel="preconnect" href="//cdn.jsdelivr.net">
+      <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css?_v=20230314170126"> -->
+    <link rel="stylesheet" href="css/style.min.css?_v=20230314170126">
+    <title>Color system</title>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="wrapper__container">
+        <div class="wrapper__bg ibg">
+          <picture><source srcset="img/color-system/bg.webp" type="image/webp"><img src="img/color-system/bg.png" alt="Background image with colors palette" /></picture>
+        </div>
+      </div>
+      <header class="header">
+        <div class="header__container">
+          <a class="header__logo" href="./">
+            <img src="img/logo.svg" alt="Unityle logo">
+          </a>
+          <div class="header__menu menu">
+            <div class="menu__top">
+              <h3 class="menu__title">Navigation</h3>
+              <button class="menu__icon icon-menu" type="button"></button>
+            </div>
+            <div class="menu__wrapper">
+              <nav class="menu__body">
+                <ul class="menu__list">
+                  <li class="menu__item">
+                    <a class="menu__link" data-goto=".color-fitches" href="color-fitches">About library</a>
+                  </li>
+                  <li class="menu__item">
+                    <a class="menu__link" data-goto=".color-features" href="color-features">Benefits</a>
+                  </li>
+                  <li class="menu__item">
+                    <a class="menu__link" data-goto=".color-details" href="color-details">More details</a>
+                  </li>
+                  <li class="menu__item">
+                    <a class="menu__link" data-goto=".pricing" href="color-pricing">Pricing</a>
+                  </li>
+                </ul>
+                <div class="menu__bottom bottom-menu">
+                  <button class="btn btn--primary" data-da=".header__container,870" type="button">Buy now $8</button>
+                  <ul class="bottom-menu__list">
+                    <li class="bottom-menu__item">
+                      <a class="bottom-menu__link" href="#" target="_blank">License</a>
+                    </li>
+                    <li class="bottom-menu__item">
+                      <a class="bottom-menu__link" href="#" target="_blank">Privacy Policy</a>
+                    </li>
+                  </ul>
+                  <p class="bottom-menu__text">Built in Ukraine 🇺🇦</p>
+                  <p class="bottom-menu__text">© 2023 Unityle. All rights reserved</p>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </header>
+
+			<main class="page">
+				<section class="page__top color-top">
+					<div class="color-top__container">
+						<div class="color-top__titles">
+							<p class="color-top__tag">Unityle v1.0: More than 30 new color palettes</p>
+							<h1 class="color-top__title">
+								Colors system <br>
+								base Kit for Figma
+							</h1>
+							<p class="color-top__subtitle">The color system is designed specifically to create in Figma design systems of any scale and complexity</p>
+						</div>
+						<div class="color-top__btns">
+							<button class="btn btn--primary" type="button" name="Chose Base license $8">Buy now $8</button>
+							<button class="btn" type="button" data-goto=".pricing" name="Scroll to pricing">View pricing</button>
+						</div>
+						<p class="color-top__text">14 day money-back guarantee</p>
+					</div>
+					<div class="color-top__picture ibg">
+						<picture><source srcset="img/color-system/top/mobile-bg.webp" type="image/webp"><img src="img/color-system/top/mobile-bg.png" alt="Tablet & mobile background image with colors palette"></picture>
+					</div>
+				</section>
+				<section class="page__fitches color-fitches">
+					<div class="color-fitches__container">
+						<div class="color-fitches__titles">
+							<h2 class="color-fitches__title">One library for all Projects</h2>
+							<p class="color-fitches__subtitle text">
+								The color library, developed specifically for many projects, saves you time in choosing a color palette for each new project
+							</p>
+						</div>
+						<div class="color-fitches__items">
+							<div class="color-fitches__item">
+								<div class="color-fitches__picture color-fitches__picture--large ibg">
+									<picture><source srcset="img/color-system/fitches/1large.webp" type="image/webp"><img src="img/color-system/fitches/1large.png" alt="Large set of colors"></picture>
+								</div>
+								<div class="color-fitches__description">
+									<h3 class="color-fitches__item-title">Large set of colors</h3>
+									<p class="color-fitches__text text">
+										20+ colorful palettes including all colors will be appropriate in over 90% of your projects
+									</p>
+								</div>
+							</div>
+							<div class="color-fitches__column">
+								<div class="color-fitches__item">
+									<div class="color-fitches__picture ibg">
+										<picture><source srcset="img/color-system/fitches/2dark-and-neutral.webp" type="image/webp"><img src="img/color-system/fitches/2dark-and-neutral.png" alt="Sets of dark & neutral colors"></picture>
+									</div>
+									<div class="color-fitches__description">
+										<h3 class="color-fitches__item-title">Sets of dark & neutral colors</h3>
+										<p class="color-fitches__text text">
+											Additional sets of dark and neutral colors with examples for use in light and dark themes
+										</p>
+									</div>
+								</div>
+								<div class="color-fitches__feedback feedback">
+									<p class="feedback__text">
+										“Reshaped gives a superpower to not think about the implementation details when building a product. I absolutely love how it helps to solve Light/Dark theming and RTL.“
+									</p>
+									<div class="feedback__person">
+										<div class="feedback__photo ibg">
+											<picture><source srcset="img/color-system/fitches/photo.webp" type="image/webp"><img src="img/color-system/fitches/photo.png" alt="Ivan Zabudko"></picture>
+										</div>
+										<div class="feedback__info">
+											<p class="feedback__name text">Ivan Zabudko</p>
+											<p class="feedback__email">concept.orange.web@gmail.com</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="page__details color-details">
+					<div class="color-details__container">
+						<div class="color-details__titles">
+							<h2 class="color-details__title">
+								Made with <br>
+								attention to details
+							</h2>
+							<p class="color-details__subtitle text">
+								Our team tried to make everything as high quality and convenient as time and energy allowed
+							</p>
+						</div>
+						<div class="color-details__items">
+							<div class="color-details__item color-details__item--large">
+								<div class="color-details__picture ibg">
+									<picture><source srcset="img/color-system/details/1already-set-up.webp" type="image/webp"><img src="img/color-system/details/1already-set-up.png" alt="Your Figma is already set up"></picture>
+								</div>
+								<div class="color-details__description">
+									<h3 class="color-details__item-title">Your Figma is already set up</h3>
+									<p class="color-details__text text">
+										You get a style library already set up for light mode. We also plan to add a free file with dark mode in the next version
+									</p>
+								</div>
+							</div>
+							<div class="color-details__item">
+								<div class="color-details__picture ibg">
+									<picture><source srcset="img/color-system/details/2contrast.webp" type="image/webp"><img src="img/color-system/details/2contrast.png" alt="Contrast indicator"></picture>
+								</div>
+								<div class="color-details__description">
+									<h3 class="color-details__item-title">Contrast indicator</h3>
+									<p class="color-details__text text">
+										Each color has a contrast indicator in the form of a white or black dot in the corner
+									</p>
+								</div>
+							</div>
+							<div class="color-details__item">
+								<div class="color-details__picture ibg">
+									<picture><source srcset="img/color-system/details/3guidelines.webp" type="image/webp"><img src="img/color-system/details/3guidelines.png" alt="Guidelines"></picture>
+								</div>
+								<div class="color-details__description">
+									<h3 class="color-details__item-title">Guidelines</h3>
+									<p class="color-details__text text">
+										We've prepared guidelines and recommendations to make it easier for you to choose colors for your next project
+									</p>
+								</div>
+							</div>
+							<div class="color-details__item">
+								<div class="color-details__picture ibg">
+									<picture><source srcset="img/color-system/details/4organized-layers.webp" type="image/webp"><img src="img/color-system/details/4organized-layers.png" alt="Organized layers"></picture>
+								</div>
+								<div class="color-details__description">
+									<h3 class="color-details__item-title">Organized layers</h3>
+									<p class="color-details__text text">
+										Each color, layer or group is signed and carefully assembled for your convenience
+									</p>
+								</div>
+							</div>
+							<div class="color-details__feedback feedback">
+								<p class="feedback__text">
+									“Reshaped gives a superpower to not think about the implementation details when building a product. I absolutely love how it helps to solve Light/Dark theming and RTL.“
+								</p>
+								<div class="feedback__person">
+									<div class="feedback__photo ibg">
+										<picture><source srcset="img/color-system/fitches/photo.webp" type="image/webp"><img src="img/color-system/fitches/photo.png" alt="Ivan Zabudko"></picture>
+									</div>
+									<div class="feedback__info">
+										<p class="feedback__name text">Ivan Zabudko</p>
+										<p class="feedback__email">concept.orange.web@gmail.com</p>
+									</div>
+								</div>
+							</div>
+							<div class="color-details__image ibg">
+								<picture><source srcset="img/color-system/details/5grayscale.webp" type="image/webp"><img src="img/color-system/details/5grayscale.png" alt="Grayscale"></picture>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section	ction class="page__features color-features">
+					<div class="color-features__container">
+						<h2 class="color-features__title">
+							Everything you need <br>
+							from a color system
+						</h2>
+						<div class="color-features__items">
+							<div class="color-features__item">
+								<div class="color-features__icon">
+									<img src="img/color-system/features/palette.svg" alt="palette">
+								</div>
+								<div class="color-features__description">
+									<h4 class="color-features__item-title">30+ palettes</h4>
+									<p class="color-features__text text">
+										Large library provides flexibility in colors selection and saves time
+									</p>
+								</div>
+							</div>
+							<div class="color-features__item">
+								<div class="color-features__icon">
+									<img src="img/color-system/features/theming.svg" alt="Theming">
+								</div>
+								<div class="color-features__description">
+									<h4 class="color-features__item-title">Theming</h4>
+									<p class="color-features__text text">
+										Ready-made color palettes for presenting your projects and developing
+									</p>
+								</div>
+							</div>
+							<div class="color-features__item">
+								<div class="color-features__icon">
+									<img src="img/color-system/features/accessibility.svg" alt="Accessibility">
+								</div>
+								<div class="color-features__description">
+									<h4 class="color-features__item-title">Accessibility</h4>
+									<p class="color-features__text text">
+										WCAG AA compliance, color contrast for each color in each color palette
+									</p>
+								</div>
+							</div>
+							<div class="color-features__item">
+								<div class="color-features__icon">
+									<img src="img/color-system/features/guidelines.svg" alt="Guidelines">
+								</div>
+								<div class="color-features__description">
+									<h4 class="color-features__item-title">Guidelines</h4>
+									<p class="color-features__text text">
+										We've created a little guide and advice on choosing a palette for projects
+									</p>
+								</div>
+							</div>
+							<div class="color-features__item">
+								<div class="color-features__icon">
+									<img src="img/color-system/features/drag-and-drop.svg" alt="Drag & Drop">
+								</div>
+								<div class="color-features__description">
+									<h4 class="color-features__item-title">Drag & Drop</h4>
+									<p class="color-features__text text">
+										Drag and drop entire color palettes and create your own color combinations
+									</p>
+								</div>
+							</div>
+							<div class="color-features__item">
+								<div class="color-features__icon">
+									<img src="img/color-system/features/dark-mode.svg" alt="Dark mode">
+								</div>
+								<div class="color-features__description">
+									<h4 class="color-features__item-title">Dark mode <span>(soon)</span></h4>
+									<p class="color-features__text text">
+										We will add a dark theme for those who have already purchased the colors system
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="page__pricing pricing">
+					<div class="pricing__container">
+						<div class="pricing__titles">
+							<h2 class="pricing__title">Pricing</h2>
+							<p class="pricing__text text">
+								Whether you're looking for a palette for a small side project or the basis for a design system, we've got it covered
+							</p>
+						</div>
+						<div class="pricing__plans">
+							<div class="pricing__plan">
+								<header class="pricing__header">
+									<h3 class="pricing__plan-title">Base license</h3>
+									<div class="pricing__price">
+										<h2 class="pricing__price-title">$8</h2>
+										<div class="pricing__details">
+											<p class="pricing__details-text">one-time payment</p>
+											<p class="pricing__details-text">for 1 user</p>
+										</div>
+									</div>
+									<p class="pricing__plan-text text">Suitable for small projects and solo freelancers</p>
+								</header>
+								<ul class="pricing__features">
+									<li class="pricing__feature">
+										<div class="pricing__feature-icon">
+											<img src="img/color-system/pricing/icon.svg" alt="Lifetime access enabled">
+										</div>
+										<p class="pricing__feature-text">Lifetime access</p>
+									</li>
+									<li class="pricing__feature">
+										<div class="pricing__feature-icon">
+											<img src="img/color-system/pricing/icon.svg" alt="Unlimited projects enabled">
+										</div>
+										<p class="pricing__feature-text">Unlimited projects</p>
+									</li>
+									<li class="pricing__feature">
+										<div class="pricing__feature-icon">
+											<img src="img/color-system/pricing/icon.svg" alt="Figma library enabled">
+										</div>
+										<p class="pricing__feature-text">Figma library</p>
+									</li>
+									<li class="pricing__feature pricing__feature--dis">
+										<div class="pricing__feature-icon">
+											<img src="img/color-system/pricing/icon-dis.svg" alt="Future large updates disabled">
+										</div>
+										<p class="pricing__feature-text">Future large updates</p>
+									</li>
+									<li class="pricing__feature pricing__feature--dis">
+										<div class="pricing__feature-icon">
+											<img src="img/color-system/pricing/icon-dis.svg" alt="Tailored support disabled">
+										</div>
+										<p class="pricing__feature-text">Tailored support</p>
+									</li>
+								</ul>
+								<button class="btn btn--primary pricing__btn" type="button" name="Chose Base license $8">Chose license</button>
+							</div>
+							<div class="pricing__plan">
+								<header class="pricing__header">
+									<h3 class="pricing__plan-title">Pro license</h3>
+									<div class="pricing__price">
+										<h2 class="pricing__price-title">$22</h2>
+										<div class="pricing__details">
+											<p class="pricing__details-text">one-time payment</p>
+											<p class="pricing__details-text">for 3 user</p>
+										</div>
+									</div>
+									<p class="pricing__plan-text text">
+										Maintained and updated, suitable for small teams
+									</p>
+								</header>
+								<ul class="pricing__features">
+									<li class="pricing__feature">
+										<div class="pricing__feature-icon">
+											<img src="img/color-system/pricing/icon.svg" alt="Lifetime access enabled">
+										</div>
+										<p class="pricing__feature-text">Lifetime access</p>
+									</li>
+									<li class="pricing__feature">
+										<div class="pricing__feature-icon">
+											<img src="img/color-system/pricing/icon.svg" alt="Unlimited projects enabled">
+										</div>
+										<p class="pricing__feature-text">Unlimited projects</p>
+									</li>
+									<li class="pricing__feature">
+										<div class="pricing__feature-icon">
+											<img src="img/color-system/pricing/icon.svg" alt="Figma library enabled">
+										</div>
+										<p class="pricing__feature-text">Figma library</p>
+									</li>
+									<li class="pricing__feature">
+										<div class="pricing__feature-icon">
+											<img src="img/color-system/pricing/icon.svg" alt="Future large updates enabled">
+										</div>
+										<p class="pricing__feature-text">Future large updates</p>
+									</li>
+									<li class="pricing__feature pricing__feature--dis">
+										<div class="pricing__feature-icon">
+											<img src="img/color-system/pricing/icon-dis.svg" alt="Tailored support disabled">
+										</div>
+										<p class="pricing__feature-text">Tailored support</p>
+									</li>
+								</ul>
+								<button class="btn pricing__btn" type="button" name="Chose Pro license $22">Chose license</button>
+							</div>
+							<div class="pricing__plan">
+								<header class="pricing__header">
+									<h3 class="pricing__plan-title">Team license</h3>
+									<div class="pricing__price">
+										<h2 class="pricing__price-title">$50</h2>
+										<div class="pricing__details">
+											<p class="pricing__details-text">one-time payment</p>
+											<p class="pricing__details-text">for 7 user</p>
+										</div>
+									</div>
+									<p class="pricing__plan-text text">
+										Perfect for teams with large and ambitious projects
+									</p>
+								</header>
+								<ul class="pricing__features">
+									<li class="pricing__feature">
+										<div class="pricing__feature-icon">
+											<img src="img/color-system/pricing/icon.svg" alt="Lifetime access enabled">
+										</div>
+										<p class="pricing__feature-text">Lifetime access</p>
+									</li>
+									<li class="pricing__feature">
+										<div class="pricing__feature-icon">
+											<img src="img/color-system/pricing/icon.svg" alt="Unlimited projects enabled">
+										</div>
+										<p class="pricing__feature-text">Unlimited projects</p>
+									</li>
+									<li class="pricing__feature">
+										<div class="pricing__feature-icon">
+											<img src="img/color-system/pricing/icon.svg" alt="Figma library enabled">
+										</div>
+										<p class="pricing__feature-text">Figma library</p>
+									</li>
+									<li class="pricing__feature">
+										<div class="pricing__feature-icon">
+											<img src="img/color-system/pricing/icon.svg" alt="Future large updates enabled">
+										</div>
+										<p class="pricing__feature-text">Future large updates</p>
+									</li>
+									<li class="pricing__feature">
+										<div class="pricing__feature-icon">
+											<img src="img/color-system/pricing/icon.svg" alt="Tailored support enabled">
+										</div>
+										<p class="pricing__feature-text">Tailored support</p>
+									</li>
+								</ul>
+								<button class="btn pricing__btn" type="button" name="Chose Team license $50">Chose license</button>
+							</div>
+						</div>
+					</div>
+				</section>
+			</main>
+
+			<footer class="footer">
+  <div class="footer__container">
+    <div class="footer__info">
+      <p class="footer__text">© 2023 Unityle. All rights reserved</p>
+      <p class="footer__text">Built in Ukraine 🇺🇦</p>
+    </div>
+    <ul class="footer__list">
+      <li class="footer__item">
+        <a class="footer__link" href="#">License</a>
+      </li>
+      <li class="footer__item">
+        <a class="footer__link" href="#">Privacy Policy</a>
+      </li>
+    </ul>
+  </div>
+</footer>
+
+    </div>
+    
+    
+    <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js?_v=20230314170126"></script>
+<script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js?_v=20230314170126"></script> -->
+<script src="js/app.min.js?_v=20230314170126"></script>
+
+  </body>
+</html>
