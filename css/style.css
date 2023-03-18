@@ -344,7 +344,7 @@ h4 {
   top: 0;
   left: 0;
   background-color: var(--neutralWhite);
-  transition: transform 0.3s linear, background-color 0.3s ease-in;
+  transition: transform 0.2s linear;
 }
 
 .header.hide {
@@ -1176,14 +1176,6 @@ h4 {
 
   .text {
     line-height: 1.75;
-  }
-
-  .header {
-    background-color: transparent;
-  }
-
-  .header:hover {
-    background-color: var(--neutralWhite);
   }
 
   .header__container {
