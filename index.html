@@ -7,15 +7,18 @@
 		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
   	<link rel="preconnect" href="https://fonts.googleapis.com">
   	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap&_v=20230326002459" rel="stylesheet">
-    <!-- <link rel="preconnect" href="//cdn.jsdelivr.net">
-      <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css?_v=20230326002459"> -->
-    <link rel="stylesheet" href="css/style.min.css?_v=20230326002459">
+  	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap&_v=20230329124740" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css?_v=20230329124740">
     <title>Unityle</title>
   </head>
-
   <body>
     <div class="wrapper">
+      <div class="wrapper__container">
+        <picture class="wrapper__bg wrapper__bg--home ibg">
+					<source srcset="img/home/bg-home.webp" type="image/webp">
+					<img src="img/home/bg-home.png" alt="Background image with Our tools">
+        </picture>
+      </div>
       <header class="header">
         <div class="header__container">
           <div class="header__logo">
@@ -39,7 +42,7 @@
                     <a class="menu__link" href="media-kit.html">Behance templates</a>
                   </li>
                   <li class="menu__item">
-                    <a class="menu__link" href="#">About us</a>
+                    <a class="menu__link" data-goto=".about" href="#about">About us</a>
                   </li>
                 </ul>
                 <div class="menu__bottom bottom-menu">
@@ -60,8 +63,154 @@
           </div>
         </div>
       </header>
-
       <main class="page">
+				<section class="page__top top top--home">
+					<div class="top__container">
+						<div class="top__titles">
+							<h1 class="top__title">
+								Our tools make a designer's life easier
+							</h1>
+							<p class="top__subtitle">Our team creates sophisticated and simple tools and products for designers and developers that make their work easier</p>
+						</div>
+						<div class="top__btns">
+							<button class="btn btn--primary" type="button">Our products</button>
+							<button class="btn" type="button" data-goto=".pricing">Unityle team</button>
+						</div>
+						<p class="top__text">14 day money-back guarantee</p>
+					</div>
+					<picture class="top__picture">
+						<source srcset="img/home/top/home-mobile-bg.webp" type="image/webp">
+						<img src="img/home/top/home-mobile-bg.png" alt="Image with Creator Tool & UI Kit">
+					</picture>
+				</section>
+				<section class="products">
+					<div class="products__container">
+						<div class="products__titles">
+							<h2 class="products__title">Our products</h2>
+							<p class="products__subtitle text">Explore our products, we are constantly working to expand and improve our products to meet your needs!</p>
+						</div>
+						<ul class="products__list">
+							<li class="products__item">
+								<a class="products__link" href="./creator-tool.html">
+									<div class="products__description">
+										<p class="products__item-title">Design System<span> (Pre-Alpha)</span></p>
+										<p class="products__text">
+											From $36
+										</p>
+									</div>
+									<picture class="products__picture">
+										<source data-srcset="img/home/products/product-design.webp" srcset="img/1x1.webp" type="image/webp">
+										<img data-src="img/home/products/product-design.png" src="img/1x1.png" alt="Design System">
+									</picture>
+								</a>
+							</li>
+							<li class="products__item">
+								<a class="products__link" href="./color-system.html">
+									<div class="products__description">
+										<p class="products__item-title">Colors System<span> v1.0</span></p>
+										<p class="products__text">
+											From $8
+										</p>
+									</div>
+									<picture class="products__picture">
+										<source data-srcset="img/home/products/product-colors.webp" srcset="img/1x1.webp" type="image/webp">
+										<img data-src="img/home/products/product-colors.png" src="img/1x1.png" alt="Colors System">
+									</picture>
+								</a>
+							</li>
+							<li class="products__item">
+								<a class="products__link" href="./media-kit.html">
+									<div class="products__description">
+										<p class="products__item-title">Media Set<span> v1.0</span></p>
+										<p class="products__text">
+											From $15
+										</p>
+									</div>
+									<picture class="products__picture">
+										<source data-srcset="img/home/products/product-media.webp" srcset="img/1x1.webp" type="image/webp">
+										<img data-src="img/home/products/product-media.png" src="img/1x1.png" alt="Media Set">
+									</picture>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section class="about">
+					<div class="about__container">
+						<div class="about__titles">
+							<h2 class="about__title">About us</h2>
+							<p class="about__subtitle text">Read more about who we are, what our purpose is, and how to contact our team members</p>
+						</div>
+						<div class="about__info">
+							<div class="about__brand brand">
+								<div class="brand__logo">
+									<img src="img/home/about/logo-light.svg" alt="Unityle logotype">
+								</div>
+								<ul class="brand__list">
+									<li class="brand__item">
+										<h3 class="brand__title">Mission</h3>
+										<p class="brand__text text">
+											We believe we're here to create a great set of tools for web designers. And we start with tools for creating simple, clear, and complete design systems.
+										</p>
+									</li>
+									<li class="brand__item">
+										<h3 class="brand__title">Values</h3>
+										<p class="brand__text text">
+											We value the clean and intuitive interface as well as the efficiency and functionality of our products.
+										</p>
+									</li>
+								</ul>
+							</div>
+							<div class="about__team team">
+								<div class="team__top">
+									<h3 class="team__title">Our team</h3>
+									<p class="team__text text">There aren't many of us, but we do our best to make you like our products</p>
+								</div>
+								<ul class="team__persons">
+									<li class="team__person person">
+										<picture class="person__photo">
+											<source data-srcset="img/persons/ivan-zabudko.webp" srcset="img/1x1.webp" type="image/webp">
+											<img data-src="img/persons/ivan-zabudko.png" src="img/1x1.png" alt="Ivan Zabudko">
+										</picture>
+										<div class="person__info">
+											<dl class="person__title">
+												<dt class="person__name text">Ivan Zabudko</dt>
+												<dd class="person__tag">Lead Designer</dd>
+											</dl>
+											<a class="person__email" href="mailto:concept.orange.web@gmail.com">concept.orange.web@gmail.com</a>
+										</div>
+									</li>
+									<li class="team__person person">
+										<picture class="person__photo">
+											<source data-srcset="img/persons/anastasia-melnyk.webp" srcset="img/1x1.webp" type="image/webp">
+											<img data-src="img/persons/anastasia-melnyk.png" src="img/1x1.png" alt="Anastasia Melnyk">
+										</picture>
+										<div class="person__info">
+											<dl class="person__title">
+												<dt class="person__name text">Anastasia Melnyk</dt>
+												<dd class="person__tag">Designer</dd>
+											</dl>
+											<a class="person__email" href="mailto:anastasiiamelnyk3010@gmail.com">anastasiiamelnyk3010@gmail.com</a>
+										</div>
+									</li>
+									<li class="team__person person">
+										<picture class="person__photo">
+											<source data-srcset="img/persons/oleksandr-ryzhov.webp" srcset="img/1x1.webp" type="image/webp">
+											<img data-src="img/persons/oleksandr-ryzhov.png" src="img/1x1.png" alt="Oleksandr Ryzhov">
+										</picture>
+										<div class="person__info">
+											<dl class="person__title">
+												<dt class="person__name text">Oleksandr Ryzhov</dt>
+												<dd class="person__tag">Developer</dd>
+											</dl>
+											<a class="person__email" href="mailto:aleksndr.ryzhov@gmail.com">aleksndr.ryzhov@gmail.com</a>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</section>
 			</main>
       <footer class="footer">
         <div class="footer__container">
@@ -79,11 +228,7 @@
           </ul>
         </div>
       </footer>
-
     </div>
-    <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js?_v=20230326002459"></script>
-		<script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js?_v=20230326002459"></script> -->
-		<script src="js/app.min.js?_v=20230326002459"></script>
-
+    <script src="js/app.min.js?_v=20230329124740"></script>
   </body>
 </html>

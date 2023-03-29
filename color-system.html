@@ -7,13 +7,10 @@
 		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
   	<link rel="preconnect" href="https://fonts.googleapis.com">
   	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap&_v=20230326002459" rel="stylesheet">
-    <!-- <link rel="preconnect" href="//cdn.jsdelivr.net">
-      <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css?_v=20230326002459"> -->
-    <link rel="stylesheet" href="css/style.min.css?_v=20230326002459">
+  	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap&_v=20230329124740" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css?_v=20230329124740">
     <title>Color System</title>
   </head>
-
   <body>
     <div class="wrapper">
       <div class="wrapper__container">
@@ -25,7 +22,7 @@
       <header class="header">
         <div class="header__container">
           <a class="header__logo" href="./">
-            <img src="img/logo.svg" alt="Unityle logo">
+            <img src="img/logo.svg" alt="Unityle logotype">
           </a>
           <div class="header__menu menu">
             <div class="menu__top">
@@ -36,16 +33,16 @@
               <nav class="menu__body">
                 <ul class="menu__list">
                   <li class="menu__item">
-                    <a class="menu__link" data-goto=".fitches" href="fitches">About library</a>
+                    <a class="menu__link" data-goto=".fitches" href="#fitches">About library</a>
                   </li>
                   <li class="menu__item">
-                    <a class="menu__link" data-goto=".features" href="features">Benefits</a>
+                    <a class="menu__link" data-goto=".features" href="#features">Benefits</a>
                   </li>
                   <li class="menu__item">
-                    <a class="menu__link" data-goto=".details" href="details">More details</a>
+                    <a class="menu__link" data-goto=".details" href="#details">More details</a>
                   </li>
                   <li class="menu__item">
-                    <a class="menu__link" data-goto=".pricing" href="pricing">Pricing</a>
+                    <a class="menu__link" data-goto=".pricing" href="#pricing">Pricing</a>
                   </li>
                 </ul>
                 <div class="menu__bottom bottom-menu">
@@ -66,7 +63,6 @@
           </div>
         </div>
       </header>
-
 			<main class="page">
 				<section class="page__top top top--color">
 					<div class="top__container">
@@ -99,42 +95,42 @@
 						</div>
 						<div class="fitches__items">
 							<div class="fitches__item">
-								<picture class="fitches__picture fitches__picture--large">
-									<source data-srcset="img/color-system/fitches/1large.webp" srcset="img/1x1.webp" type="image/webp">
-									<img data-src="img/color-system/fitches/1large.png" src="img/1x1.png" alt="Large set of colors">
-								</picture>
 								<div class="fitches__description">
 									<h3 class="fitches__item-title">Large set of colors</h3>
 									<p class="fitches__text text">
 										20+ colorful palettes including all colors will be appropriate in over 90% of your projects
 									</p>
 								</div>
+								<picture class="fitches__picture fitches__picture--large">
+									<source data-srcset="img/color-system/fitches/1large.webp" srcset="img/1x1.webp" type="image/webp">
+									<img data-src="img/color-system/fitches/1large.png" src="img/1x1.png" alt="Large set of colors">
+								</picture>
 							</div>
 							<div class="fitches__column">
 								<div class="fitches__item">
-									<picture class="fitches__picture">
-										<source data-srcset="img/color-system/fitches/2dark-and-neutral.webp" srcset="img/1x1.webp" type="image/webp">
-										<img data-src="img/color-system/fitches/2dark-and-neutral.png" src="img/1x1.png" alt="Sets of dark & neutral colors">
-									</picture>
 									<div class="fitches__description">
 										<h3 class="fitches__item-title">Sets of dark & neutral colors</h3>
 										<p class="fitches__text text">
 											Additional sets of dark and neutral colors with examples for use in light and dark themes
 										</p>
 									</div>
+									<picture class="fitches__picture">
+										<source data-srcset="img/color-system/fitches/2dark-and-neutral.webp" srcset="img/1x1.webp" type="image/webp">
+										<img data-src="img/color-system/fitches/2dark-and-neutral.png" src="img/1x1.png" alt="Sets of dark & neutral colors">
+									</picture>
 								</div>
 								<div class="fitches__feedback feedback">
 									<p class="feedback__text">
 										“I used your colour palette component theme, which is very handy. I think it will help designers like us to make life easy and sorted.”
 									</p>
-									<div class="feedback__person">
-										<picture class="feedback__photo">
+									<div class="feedback__person person">
+										<picture class="person__photo">
 											<source data-srcset="img/feedback/dolly-modi.webp" srcset="img/1x1.webp" type="image/webp">
 											<img data-src="img/feedback/dolly-modi.png" src="img/1x1.png" alt="Dolly Modi">
 										</picture>
-										<dl class="feedback__info">
-											<dt class="feedback__name text">Dolly Modi</dt>
-											<dd class="feedback__descr">Brand Designer, Alap Kamdar Architect</dd>
+										<dl class="person__info">
+											<dt class="person__name text">Dolly Modi</dt>
+											<dd class="person__descr">Brand Designer, Alap Kamdar Architect</dd>
 										</dl>
 									</div>
 								</div>
@@ -155,65 +151,65 @@
 						</div>
 						<div class="details__items details__items">
 							<div class="details__item details__item--large">
-								<picture class="details__picture">
-									<source data-srcset="img/color-system/details/1already-set-up.webp" srcset="img/1x1.webp" type="image/webp">
-									<img data-src="img/color-system/details/1already-set-up.png" src="img/1x1.png" alt="Your Figma is already set up">
-								</picture>
 								<div class="details__description">
 									<h3 class="details__item-title">Your Figma is already set up</h3>
 									<p class="details__text text">
 										You get a style library already set up for light mode. We also plan to add a free file with dark mode in the next version
 									</p>
 								</div>
+								<picture class="details__picture">
+									<source data-srcset="img/color-system/details/1already-set-up.webp" srcset="img/1x1.webp" type="image/webp">
+									<img data-src="img/color-system/details/1already-set-up.png" src="img/1x1.png" alt="Your Figma is already set up">
+								</picture>
 							</div>
 							<div class="details__item">
-								<picture class="details__picture">
-									<source data-srcset="img/color-system/details/2contrast.webp" srcset="img/1x1.webp" type="image/webp">
-									<img data-src="img/color-system/details/2contrast.png" src="img/1x1.png" alt="Contrast indicator">
-								</picture>
 								<div class="details__description">
 									<h3 class="details__item-title">Contrast indicator</h3>
 									<p class="details__text text">
 										Each color has a contrast indicator in the form of a white or black dot in the corner
 									</p>
 								</div>
+								<picture class="details__picture">
+									<source data-srcset="img/color-system/details/2contrast.webp" srcset="img/1x1.webp" type="image/webp">
+									<img data-src="img/color-system/details/2contrast.png" src="img/1x1.png" alt="Contrast indicator">
+								</picture>
 							</div>
 							<div class="details__item">
-								<picture class="details__picture">
-									<source data-srcset="img/color-system/details/3guidelines.webp" srcset="img/1x1.webp" type="image/webp">
-									<img data-src="img/color-system/details/3guidelines.png" src="img/1x1.png" alt="Guidelines">
-								</picture>
 								<div class="details__description">
 									<h3 class="details__item-title">Guidelines</h3>
 									<p class="details__text text">
 										We've prepared guidelines and recommendations to make it easier for you to choose colors for your next project
 									</p>
 								</div>
+								<picture class="details__picture">
+									<source data-srcset="img/color-system/details/3guidelines.webp" srcset="img/1x1.webp" type="image/webp">
+									<img data-src="img/color-system/details/3guidelines.png" src="img/1x1.png" alt="Guidelines">
+								</picture>
 							</div>
 							<div class="details__item">
-								<picture class="details__picture">
-									<source data-srcset="img/color-system/details/4organized-layers.webp" srcset="img/1x1.webp" type="image/webp">
-									<img data-src="img/color-system/details/4organized-layers.png" src="img/1x1.png" alt="Organized layers">
-								</picture>
 								<div class="details__description">
 									<h3 class="details__item-title">Organized layers</h3>
 									<p class="details__text text">
 										Each color, layer or group is signed and carefully assembled for your convenience
 									</p>
 								</div>
+								<picture class="details__picture">
+									<source data-srcset="img/color-system/details/4organized-layers.webp" srcset="img/1x1.webp" type="image/webp">
+									<img data-src="img/color-system/details/4organized-layers.png" src="img/1x1.png" alt="Organized layers">
+								</picture>
 							</div>
 							<div class="details__feedback feedback">
 								<p class="feedback__text">
 									“The color palettes are flawless. The accessibility of the colors added a bonus to the manual. Also those 'system colors' couldn't have been better. (I loved them)”
 								</p>
-								<div class="feedback__person">
-									<picture class="feedback__photo">
+								<div class="feedback__person person">
+									<picture class="person__photo">
 										<source data-srcset="img/feedback/ui-bucket.webp" srcset="img/1x1.webp" type="image/webp">
 										<img data-src="img/feedback/ui-bucket.png" src="img/1x1.png" alt="UI Bucket">
 									</picture>
-									<dl class="feedback__info">
-										<dt class="feedback__name text">UI Bucket</dt>
-										<dd class="feedback__descr">200k+ followers on Instagram</dd>
+									<dl class="person__info">
+										<dt class="person__name text">UI Bucket</dt>
+										<dd class="person__descr">200k+ followers on Instagram</dd>
 									</dl>
 								</div>
 							</div>
@@ -232,69 +228,69 @@
 						</h2>
 						<div class="features__items">
 							<div class="features__item">
-								<div class="features__icon">
-									<img src="img/color-system/features/palette.svg" alt="30+ palettes">
-								</div>
 								<div class="features__description">
 									<h4 class="features__item-title">30+ palettes</h4>
 									<p class="features__text text">
 										Large library provides flexibility in colors selection and saves time
 									</p>
 								</div>
+								<div class="features__icon">
+									<img src="img/color-system/features/palette.svg" alt="30+ palettes">
+								</div>
 							</div>
 							<div class="features__item">
-								<div class="features__icon">
-									<img src="img/color-system/features/theming.svg" alt="Theming">
-								</div>
 								<div class="features__description">
 									<h4 class="features__item-title">Theming</h4>
 									<p class="features__text text">
 										Ready-made color palettes for presenting your projects and developing
 									</p>
 								</div>
+								<div class="features__icon">
+									<img src="img/color-system/features/theming.svg" alt="Theming">
+								</div>
 							</div>
 							<div class="features__item">
-								<div class="features__icon">
-									<img src="img/color-system/features/accessibility.svg" alt="Accessibility">
-								</div>
 								<div class="features__description">
 									<h4 class="features__item-title">Accessibility</h4>
 									<p class="features__text text">
 										WCAG AA compliance, color contrast for each color in each color palette
 									</p>
 								</div>
+								<div class="features__icon">
+									<img src="img/color-system/features/accessibility.svg" alt="Accessibility">
+								</div>
 							</div>
 							<div class="features__item">
-								<div class="features__icon">
-									<img src="img/color-system/features/guidelines.svg" alt="Guidelines">
-								</div>
 								<div class="features__description">
 									<h4 class="features__item-title">Guidelines</h4>
 									<p class="features__text text">
 										We've created a little guide and advice on choosing a palette for projects
 									</p>
 								</div>
+								<div class="features__icon">
+									<img src="img/color-system/features/guidelines.svg" alt="Guidelines">
+								</div>
 							</div>
 							<div class="features__item">
-								<div class="features__icon">
-									<img src="img/color-system/features/drag-and-drop.svg" alt="Drag & Drop">
-								</div>
 								<div class="features__description">
 									<h4 class="features__item-title">Drag & Drop</h4>
 									<p class="features__text text">
 										Drag and drop entire color palettes and create your own color combinations
 									</p>
 								</div>
+								<div class="features__icon">
+									<img src="img/color-system/features/drag-and-drop.svg" alt="Drag & Drop">
+								</div>
 							</div>
 							<div class="features__item">
-								<div class="features__icon">
-									<img src="img/color-system/features/dark-mode.svg" alt="Dark mode (soon)">
-								</div>
 								<div class="features__description">
 									<h4 class="features__item-title">Dark mode <span>(soon)</span></h4>
 									<p class="features__text text">
 										We will add a dark theme for those who have already purchased the colors system
 									</p>
+								</div>
+								<div class="features__icon">
+									<img src="img/color-system/features/dark-mode.svg" alt="Dark mode (soon)">
 								</div>
 							</div>
 						</div>
@@ -315,42 +311,48 @@
 									<div class="pricing__price">
 										<h2 class="pricing__price-title">$8</h2>
 										<div class="pricing__details">
-											<p class="pricing__details-text">one-time payment</p>
-											<p class="pricing__details-text">for 1 user</p>
+											<p class="pricing__details-text">For 1 user</p>
+											<p class="pricing__details-text">Full price</p>
 										</div>
 									</div>
-									<p class="pricing__plan-text text">Suitable for small projects and solo freelancers</p>
+									<p class="pricing__plan-text text">Popular for solo freelancers</p>
 								</header>
 								<ul class="pricing__features">
 									<li class="pricing__feature">
+										<p class="pricing__feature-text">Base Color Palette</p>
 										<div class="pricing__feature-icon">
-											<img src="img/pricing/icon.svg" alt="Lifetime access enabled">
+											<img src="img/pricing/icon.svg" alt="Base Color Palette enabled">
 										</div>
-										<p class="pricing__feature-text">Lifetime access</p>
 									</li>
 									<li class="pricing__feature">
+										<p class="pricing__feature-text">Neutral & Dark Palettes</p>
 										<div class="pricing__feature-icon">
-											<img src="img/pricing/icon.svg" alt="Unlimited projects enabled">
+											<img src="img/pricing/icon.svg" alt="Neutral & Dark Palettes enabled">
 										</div>
-										<p class="pricing__feature-text">Unlimited projects</p>
 									</li>
 									<li class="pricing__feature">
+										<p class="pricing__feature-text">Design Guidelines</p>
 										<div class="pricing__feature-icon">
-											<img src="img/pricing/icon.svg" alt="Figma library enabled">
+											<img src="img/pricing/icon.svg" alt="Design Guidelines enabled">
 										</div>
-										<p class="pricing__feature-text">Figma library</p>
+									</li>
+									<li class="pricing__feature pricing__feature">
+										<p class="pricing__feature-text">Upgrade to Dark Mode</p>
+										<div class="pricing__feature-icon">
+											<img src="img/pricing/icon.svg" alt="Upgrade to Dark Mode enabled">
+										</div>
 									</li>
 									<li class="pricing__feature pricing__feature--dis">
+										<p class="pricing__feature-text">Chat with Developers</p>
 										<div class="pricing__feature-icon">
-											<img src="img/pricing/icon-dis.svg" alt="Future large updates disabled">
+											<img src="img/pricing/icon-dis.svg" alt="Chat with Developers disabled">
 										</div>
-										<p class="pricing__feature-text">Future large updates</p>
 									</li>
 									<li class="pricing__feature pricing__feature--dis">
+										<p class="pricing__feature-text">Free “Neutral” Update</p>
 										<div class="pricing__feature-icon">
-											<img src="img/pricing/icon-dis.svg" alt="Tailored support disabled">
+											<img src="img/pricing/icon-dis.svg" alt="Free “Neutral” Update disabled">
 										</div>
-										<p class="pricing__feature-text">Tailored support</p>
 									</li>
 								</ul>
 								<button class="btn btn--primary pricing__btn" type="button" name="Chose Base license $8">Chose license</button>
@@ -361,44 +363,50 @@
 									<div class="pricing__price">
 										<h2 class="pricing__price-title">$22</h2>
 										<div class="pricing__details">
-											<p class="pricing__details-text">one-time payment</p>
-											<p class="pricing__details-text">for 3 user</p>
+											<p class="pricing__details-text">For 3 user</p>
+											<p class="pricing__details-text">Save $4</p>
 										</div>
 									</div>
 									<p class="pricing__plan-text text">
-										Maintained and updated, suitable for small teams
+										Recommended for small teams
 									</p>
 								</header>
 								<ul class="pricing__features">
 									<li class="pricing__feature">
+										<p class="pricing__feature-text">Base Color Palette</p>
 										<div class="pricing__feature-icon">
-											<img src="img/pricing/icon.svg" alt="Lifetime access enabled">
+											<img src="img/pricing/icon.svg" alt="Base Color Palette enabled">
 										</div>
-										<p class="pricing__feature-text">Lifetime access</p>
 									</li>
 									<li class="pricing__feature">
+										<p class="pricing__feature-text">Neutral & Dark Palettes</p>
 										<div class="pricing__feature-icon">
-											<img src="img/pricing/icon.svg" alt="Unlimited projects enabled">
+											<img src="img/pricing/icon.svg" alt="Neutral & Dark Palettes enabled">
 										</div>
-										<p class="pricing__feature-text">Unlimited projects</p>
 									</li>
 									<li class="pricing__feature">
+										<p class="pricing__feature-text">Design Guidelines</p>
 										<div class="pricing__feature-icon">
-											<img src="img/pricing/icon.svg" alt="Figma library enabled">
+											<img src="img/pricing/icon.svg" alt="Design Guidelines enabled">
 										</div>
-										<p class="pricing__feature-text">Figma library</p>
 									</li>
 									<li class="pricing__feature">
+										<p class="pricing__feature-text">Upgrade to Dark Mode</p>
 										<div class="pricing__feature-icon">
-											<img src="img/pricing/icon.svg" alt="Future large updates enabled">
+											<img src="img/pricing/icon.svg" alt="Upgrade to Dark Mode enabled">
 										</div>
-										<p class="pricing__feature-text">Future large updates</p>
+									</li>
+									<li class="pricing__feature">
+										<p class="pricing__feature-text">Chat with Developers</p>
+										<div class="pricing__feature-icon">
+											<img src="img/pricing/icon.svg" alt="Chat with Developers enabled">
+										</div>
 									</li>
 									<li class="pricing__feature pricing__feature--dis">
+										<p class="pricing__feature-text">Free “Neutral” Update</p>
 										<div class="pricing__feature-icon">
-											<img src="img/pricing/icon-dis.svg" alt="Tailored support disabled">
+											<img src="img/pricing/icon-dis.svg" alt="Free “Neutral” Update disabled">
 										</div>
-										<p class="pricing__feature-text">Tailored support</p>
 									</li>
 								</ul>
 								<button class="btn pricing__btn" type="button" name="Chose Pro license $22">Chose license</button>
@@ -409,44 +417,50 @@
 									<div class="pricing__price">
 										<h2 class="pricing__price-title">$50</h2>
 										<div class="pricing__details">
-											<p class="pricing__details-text">one-time payment</p>
-											<p class="pricing__details-text">for 7 user</p>
+											<p class="pricing__details-text">For 7 user</p>
+											<p class="pricing__details-text">Save $16</p>
 										</div>
 									</div>
 									<p class="pricing__plan-text text">
-										Perfect for teams with large and ambitious projects
+										Perfect for large teams
 									</p>
 								</header>
 								<ul class="pricing__features">
 									<li class="pricing__feature">
+										<p class="pricing__feature-text">Base Color Palette</p>
 										<div class="pricing__feature-icon">
-											<img src="img/pricing/icon.svg" alt="Lifetime access enabled">
+											<img src="img/pricing/icon.svg" alt="Base Color Palette enabled">
 										</div>
-										<p class="pricing__feature-text">Lifetime access</p>
 									</li>
 									<li class="pricing__feature">
+										<p class="pricing__feature-text">Neutral & Dark Palettes</p>
 										<div class="pricing__feature-icon">
-											<img src="img/pricing/icon.svg" alt="Unlimited projects enabled">
+											<img src="img/pricing/icon.svg" alt="Neutral & Dark Palettes enabled">
 										</div>
-										<p class="pricing__feature-text">Unlimited projects</p>
 									</li>
 									<li class="pricing__feature">
+										<p class="pricing__feature-text">Design Guidelines</p>
 										<div class="pricing__feature-icon">
-											<img src="img/pricing/icon.svg" alt="Figma library enabled">
+											<img src="img/pricing/icon.svg" alt="Design Guidelines enabled">
 										</div>
-										<p class="pricing__feature-text">Figma library</p>
 									</li>
 									<li class="pricing__feature">
+										<p class="pricing__feature-text">Upgrade to Dark Mode</p>
 										<div class="pricing__feature-icon">
-											<img src="img/pricing/icon.svg" alt="Future large updates enabled">
+											<img src="img/pricing/icon.svg" alt="Upgrade to Dark Mode enabled">
 										</div>
-										<p class="pricing__feature-text">Future large updates</p>
 									</li>
 									<li class="pricing__feature">
+										<p class="pricing__feature-text">Chat with Developers</p>
 										<div class="pricing__feature-icon">
-											<img src="img/pricing/icon.svg" alt="Tailored support enabled">
+											<img src="img/pricing/icon.svg" alt="Chat with Developers enabled">
 										</div>
-										<p class="pricing__feature-text">Tailored support</p>
+									</li>
+									<li class="pricing__feature">
+										<p class="pricing__feature-text">Free “Neutral” Update</p>
+										<div class="pricing__feature-icon">
+											<img src="img/pricing/icon.svg" alt="Free “Neutral” Update enabled">
+										</div>
 									</li>
 								</ul>
 								<button class="btn pricing__btn" type="button" name="Chose Team license $50">Chose license</button>
@@ -455,7 +469,6 @@
 					</div>
 				</section>
 			</main>
-
 			<footer class="footer">
         <div class="footer__container">
           <div class="footer__info">
@@ -472,13 +485,7 @@
           </ul>
         </div>
       </footer>
-
     </div>
-    
-    
-    <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js?_v=20230326002459"></script>
-		<script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js?_v=20230326002459"></script> -->
-		<script src="js/app.min.js?_v=20230326002459"></script>
-
+    <script src="js/app.min.js?_v=20230329124740"></script>
   </body>
 </html>
